@@ -1,0 +1,8 @@
+version: 2
+services:
+  client-ui:
+    build: ./client-ui
+  server-s3:
+    build: ./server-s3
+  server-volume:
+    build: ./server-volume
